@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .transisi{
+    @apply transition duration-300;
+  }
+  .menusm{
+    @apply px-4 py-20 flex-col absolute bg-white shadow-xl min-h-screen -right-5 w-8/12 top-0;
+  }
+  .title{
+    @apply text-5xl mb-6 capitalize;
+  }
+  .title-article{
+    @apply text-3xl mb-6 capitalize;
+  }
+  .text-content{
+    @apply text-lg text-slate-800 leading-relaxed;
+  }
+  .menu-active{
+    @apply bg-green-300/30 ;
+  }
+}
