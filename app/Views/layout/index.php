@@ -4,9 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="<?= base_url(); ?>template/dist/img/logo.png" type="image/x-icon">
+  <?= $this->include('utils/css'); ?>
   <title><?= $title; ?> - myFolder</title>
-  <link rel="stylesheet" href="<?= base_url(); ?>template/dist/css/app.css">
 </head>
 
 <body class="font-inter selection:bg-green-400 selection:text-green-900">

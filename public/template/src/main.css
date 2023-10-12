@@ -20,6 +20,14 @@
     @apply text-lg text-slate-800 leading-relaxed;
   }
   .menu-active{
-    @apply bg-green-300/30 ;
-  }
-}
+    @apply bg-green-300/30;
+    }
+    
+    .hide {
+      @apply -translate-x-full;
+    }
+    
+    .show {
+      @apply translate-x-0;
+    }
+    }

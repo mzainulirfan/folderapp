@@ -26,7 +26,7 @@
           <a href="apps" class="px-3 py-2 transisi hover:bg-green-200 rounded text-green-500 w-full block <?= $uri->getSegment(1) == 'apps' ? 'menu-active' : '' ?> ">aplikasi</a>
         </li>
         <li class="group w-full">
-          <a href="shop" class="px-3 py-2 transisi hover:bg-green-200 rounded text-green-500 w-full block <?= $uri->getSegment(1) == 'shop' ? 'menu-active' : '' ?> ">toko</a>
+          <a href="admin" class="px-3 py-2 transisi hover:bg-green-200 rounded text-green-500 w-full block <?= $uri->getSegment(1) == 'admin' ? 'menu-active' : '' ?> ">admin</a>
         </li>
       </ul>
       <button id="btnOpenSidebar" class="block md:hidden p-2 rounded text-green-500 transisi focus:ring focus:ring-green-300 focus:ring-offset-2 focus:bg-green-200 hover:bg-green-200">
