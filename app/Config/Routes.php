@@ -13,3 +13,4 @@ $routes->get('apps', 'Home::apps');
 $routes->get('shop', 'Home::shop');
 
 $routes->get('admin', 'Admin::index');
+$routes->get('admin/product', 'Admin::products');

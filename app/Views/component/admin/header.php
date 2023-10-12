@@ -1,4 +1,4 @@
- <header class="flex w-full fixed top-0 z-10 justify-between px-2 bg-gray-50 border-b h-14 items-center">
+ <header class="flex w-full fixed top-0 z-[11] justify-between shadow-sm shadow-green-400/50 px-2 bg-gray-50 border-b h-14 items-center">
    <a href="/" class="uppercase text-green-400 font-semibold text-lg flex items-center space-x-1">
      <img src="<?= base_url(); ?>template/dist/img/logo.png" alt="logo" class="w-6"><span>myfolder</span>
    </a>
