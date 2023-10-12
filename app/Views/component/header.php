@@ -4,7 +4,7 @@
       <a href="/" class="uppercase text-green-400 font-semibold text-lg flex items-center space-x-1">
         <img src="<?= base_url(); ?>template/dist/img/logo.png" alt="logo" class="w-6"><span>myfolder</span>
       </a>
-      <ul class="transisi ease-in md:translate-x-0 translate-x-full  flex capitalize md:py-0 md:flex-row md:min-h-0  md:w-auto md:items-center gap-1 menusm  md:shadow-none md:static">
+      <ul class="transisi ease-in md:translate-x-0 translate-x-full  flex capitalize md:py-0 md:flex-row md:min-h-0 md:bg-transparent md:w-auto md:items-center gap-1 menusm  md:shadow-none md:static">
         <button id="btnCloseSidebar" class="absolute md:hidden top-3 right-5 p-2 rounded text-green-500 transisi focus:ring focus:ring-green-300 focus:ring-offset-2 focus:bg-green-200 hover:bg-green-200 bg-green-100">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
             <path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path>
