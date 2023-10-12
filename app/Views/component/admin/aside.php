@@ -1,4 +1,4 @@
-<aside id="menu" class="hide md:show fixed flex w-60 bg-gray-50 md:flex flex-col justify-between h-[calc(100vh-56px)] transisi shadow-xl p-4">
+<aside id="menu" class="hide md:show z-10 fixed flex w-60 bg-gray-50 md:flex flex-col justify-between h-[calc(100vh-56px)] transisi shadow-xl p-4">
   <ul class="flex flex-col gap-1 mt-4">
     <li class=" hover:bg-green-500/30 bg-green-500/70 transisi text-white rounded py-2 px-1 -mx-3"><a href="" class="flex items-center gap-2 ml-2">
         <span>
