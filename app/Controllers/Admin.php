@@ -13,11 +13,11 @@ class Admin extends BaseController
         ];
         return view('admin/dashboard/dashboard', $data);
     }
-    public function products()
-    {
-        $data = [
-            'title' => 'Product lists'
-        ];
-        return view('admin/product/list', $data);
-    }
+    // public function products()
+    // {
+    //     $data = [
+    //         'title' => 'Product lists'
+    //     ];
+    //     return view('admin/product/list', $data);
+    // }
 }

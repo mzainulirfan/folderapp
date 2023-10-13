@@ -5,6 +5,13 @@
 @tailwind utilities;
 
 @layer components{
+  .title-card {
+      @apply text-gray-700 text-xl font-semibold;
+    }
+  
+    .title-page {
+      @apply text-2xl font-medium leading-7 mb-6 text-slate-800;
+    }
   .transisi{
     @apply transition duration-300;
   }
